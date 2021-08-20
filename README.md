@@ -9,7 +9,7 @@ Python API wrapper for 1secmail.com/api/. Temp mail lets you use anonymous email
 Get list of active domains
 ```
 from tempmail import TempMail
-email = TempMail() # you can youse your login
+email = TempMail() # you can youse your login and domain login='Your login' domain = 'active domain'
 print(email.get_list_of_active_domain())
 ```
 Generate random email address
