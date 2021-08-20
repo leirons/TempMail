@@ -26,14 +26,14 @@ email = TempMail()
 get.login()
 get.domain()
 ```
-Download Attachment from MailBox
+Download single file from MailBox
 ```
 from tempmail import TempMail()
 email = TempMail(login='login')
 email.download_attachments_by_id(id=12312,attachemnts='file.jpg')
 ```
 
-Download all Files from MailBox
+Download all files from MailBox
 ```
 from tempmail import TempMail()
 email = TempMail(login='login')
