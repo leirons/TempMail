@@ -23,8 +23,8 @@ Get your login and domain
 ```
 from tempmail import TempMail
 email = TempMail()
-get.login()
-get.domain()
+email.get.login()
+email.get.domain()
 ```
 Download single file from MailBox
 ```
