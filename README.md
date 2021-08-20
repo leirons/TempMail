@@ -3,7 +3,7 @@ Python API wrapper for 1secmail.com/api/. Temp mail lets you use anonymous email
 ## Requirements
 - requests
 ## Installation
-- pip install 
+- pip install temp-email
 
 ## Usage
 Get list of active domains
